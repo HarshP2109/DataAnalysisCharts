@@ -9,6 +9,7 @@ import Pie from "./scenes/pie";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import InputData from "./scenes/InputData";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -29,6 +30,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/data" element={<InputData />} />
             </Routes>
+            <Analytics />
           </main>
         </div>
       </ThemeProvider>
