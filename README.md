@@ -24,7 +24,7 @@ This project is a data analysis dashboard designed to visualize JSON data using 
 1. **Clone the repository**
    ```sh
    git clone https://github.com/HarshP2109/DataAnalysisCharts.git
-   cd your-repo
+   cd DataAnalysisCharts
    ```
 
 2. **Install dependencies**
